@@ -36,7 +36,7 @@ if uploaded_file:
         elif accessory_option == "แว่นตา":
             position = (x, y + int(h / 100))
         else:  # หูแมว
-            position = (x, y - accessory_height + 10)
+            position = (x, y - accessory_height + 35)
         img_pil.paste(accessory, position, mask=accessory)
 
         st.image(img_pil, caption="🎉 ภาพที่ตกแต่งแล้ว", use_container_width=True)
