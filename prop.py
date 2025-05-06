@@ -48,3 +48,4 @@ if uploaded_file:
         st.download_button("📥 ดาวน์โหลดภาพ", data=buf.getvalue(), file_name="decorated_image.png", mime="image/png")
     else:
         st.warning("ไม่พบใบหน้าในภาพ กรุณาอัปโหลดภาพใหม่")
+st.info ("made by Thanuchsit Somnuk")        
